@@ -95,3 +95,7 @@ npx skills add https://github.com/netics01/coretree-writing/tree/main/skills/cor
 ## 상태
 
 Coretree는 의도적으로 작게 유지합니다. 목표는 큰 글쓰기 프레임워크가 아니라 사람과 AI 에이전트가 일관되게 적용할 수 있는 명확한 작성 규칙을 제공하는 것입니다.
+
+## 라이선스
+
+MIT License입니다. [LICENSE](LICENSE)를 참고하세요.

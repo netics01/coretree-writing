@@ -93,3 +93,7 @@ Manual paths:
 ## Status
 
 Coretree is intentionally small. The goal is not to define a broad writing framework, but to provide a clear convention that people and AI agents can apply consistently.
+
+## License
+
+MIT License. See [LICENSE](LICENSE).
