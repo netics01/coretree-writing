@@ -1,5 +1,7 @@
 # Coretree Writing
 
+Language: English | [한국어](README.ko.md)
+
 Coretree is a compact multi-level bullet writing style for quick scanning.
 
 It helps turn notes, decisions, findings, and raw information into readable bullet trees. It is not a template, a knowledge base system, or a universal writing method. It is a small writing convention for organizing information so readers can see the structure quickly.
@@ -27,21 +29,32 @@ Use Coretree when a reader needs to scan information quickly.
 
 ## Quick Example
 
-Before: prose paragraph
+Before: prose notes
 
-> The team tested app dictation first. At first, it looked like dictation into other apps was not working, but the real cause was an execution permission issue.
+> We tested app dictation first. At first, it looked like dictation into other apps was not supported, so we considered replacing it with a separate transcription tool. Later, we found that the problem was not a feature limitation but an execution permission issue.
 >
-> The team also tested another transcription tool, but rejected it because transcription accuracy was too low for long Korean sentences.
+> We also tested two transcription tools. Tool A was fast, but its accuracy dropped too much on long Korean sentences. Tool B handled long sentences better, but punctuation was inconsistent and would increase review work. For now, the team decided to keep app dictation after fixing permissions, reject Tool A, and leave Tool B as a possible fallback for offline notes.
 
 After:
 
 ```text
 - App dictation test
-    - Dictation into other apps did not work at first
-    - Cause: execution permission issue
+    - Initial assumption: dictation into other apps was not supported
+    - Actual cause: execution permission issue
 
-- Transcription tool decision: rejected
-    - Accuracy on long Korean sentences was insufficient
+- Current decision: keep app dictation after fixing permissions
+
+- Tool A decision: rejected
+    - Fast enough for live notes
+    - Accuracy drops too much on long Korean sentences
+
+- Tool B status: fallback candidate
+    - Handles long sentences better than Tool A
+    - Inconsistent punctuation => higher review work
+
+- Core outcome
+    - No replacement tool needed yet
+    - Fix permissions first
 ```
 
 ## Files
@@ -51,7 +64,7 @@ After:
 - `EXAMPLES.md`: primary examples in English.
 - `EXAMPLES.ko.md`: Korean companion examples.
 - `AGENTS.md`: short instructions for AI agents.
-- `skills/coretree/SKILL.md`: standalone Coretree skill file.
+- `skills/coretree/SKILL.md`: standalone `coretree` skill file. The repository is named `coretree-writing`; the installable skill is named `coretree`.
 
 ## Language
 
