@@ -6,11 +6,11 @@ This document contains examples for Coretree writing. `SPEC.md` is the primary s
 
 ## Notes
 
-Before:
+Before: prose notes
 
-```text
-We discussed the onboarding flow. The current welcome screen is too long, and users often skip the setup step. We decided to shorten the welcome copy and move setup guidance into the first task screen.
-```
+> We discussed the onboarding flow. The current welcome screen is too long, and users often skip the setup step.
+>
+> We decided to shorten the welcome copy and move setup guidance into the first task screen.
 
 After:
 
@@ -25,11 +25,11 @@ Rule shown: labels are optional; clear hierarchy can carry most of the structure
 
 ## Decision Records
 
-Before:
+Before: prose notes
 
-```text
-The team chose the smaller release scope because the larger version would require more review and delay the launch. The excluded reporting feature should be reconsidered after the first release.
-```
+> The team chose the smaller release scope because the larger version would require more review and delay the launch.
+>
+> The excluded reporting feature should be reconsidered after the first release.
 
 After:
 
@@ -43,11 +43,11 @@ Rule shown: important decisions are promoted upward.
 
 ## Research Summaries
 
-Before:
+Before: prose notes
 
-```text
-Three transcription tools were tested. Tool A was fast but inaccurate for long Korean sentences. Tool B handled long sentences better but produced inconsistent punctuation. Tool C was accurate enough but too slow for live note-taking.
-```
+> Three transcription tools were tested. Tool A was fast but inaccurate for long Korean sentences.
+>
+> Tool B handled long sentences better but produced inconsistent punctuation. Tool C was accurate enough but too slow for live note-taking.
 
 After:
 
@@ -68,11 +68,11 @@ Rule shown: same-depth bullets should contain the same type of information.
 
 ## Bug Reports
 
-Before:
+Before: prose notes
 
-```text
-Users cannot save settings after changing notification preferences. The save request returns 403. The likely cause is that the settings endpoint checks the wrong permission name. The issue blocks preference changes but does not affect login or reading existing settings.
-```
+> Users cannot save settings after changing notification preferences. The save request returns 403.
+>
+> The likely cause is that the settings endpoint checks the wrong permission name. The issue blocks preference changes but does not affect login or reading existing settings.
 
 After:
 
@@ -89,11 +89,11 @@ Rule shown: causes, symptoms, and impact should be separated.
 
 ## AI Agent Output
 
-Before:
+Before: prose notes
 
-```text
-I reviewed the configuration and found that validation already runs before release. I also found that formatting checks run in a separate step, so combining them with release would make failures harder to understand.
-```
+> I reviewed the configuration and found that validation already runs before release.
+>
+> I also found that formatting checks run in a separate step, so combining them with release would make failures harder to understand.
 
 After:
 
