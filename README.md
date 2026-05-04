@@ -8,6 +8,10 @@ It helps turn scattered notes, decisions, findings, and raw information into str
 
 It is intentionally small: not a template, not a knowledge base system, and not a universal writing method.
 
+## Why Coretree
+
+Asking an agent to "use bullets to structure this document" does not always structure the information accurately. Coretree addresses this by clearly defining how to organize information with multi-level bullets. Coretree exists as a small named instruction for making bullet depth, importance, and promotion more predictable.
+
 ## What It Is
 
 Coretree uses multi-level bullets with explicit rules for depth, importance, and promotion.
@@ -19,11 +23,7 @@ Coretree uses multi-level bullets with explicit rules for depth, importance, and
 - Short labels such as `Decision:`, `Cause:`, `Result:`, and `Status:` can make scanning easier when the role of a bullet needs to be explicit.
 - For short relationships, use `:` for label-value pairs and `=>` for cause, change, or consequence.
 
-## Why Coretree
-
-Generic "use bullets" instructions often produce inconsistent structure. Coretree exists as a small named instruction for making bullet depth, importance, and promotion more predictable.
-
-## Why Use It
+## When To Use It
 
 Use Coretree when a reader needs to scan information quickly.
 
