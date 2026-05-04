@@ -60,7 +60,29 @@ After:
 
 - Want more examples? Read [EXAMPLES.md](EXAMPLES.md).
 - Want the exact rules? Read [SPEC.md](SPEC.md).
-- Want to use it as an agent skill? See [skills/coretree/SKILL.md](skills/coretree/SKILL.md). The repository is named `coretree-writing`; the installable skill is named `coretree`.
+- Want to use it as an agent skill? See [Use As An Agent Skill](#use-as-an-agent-skill).
+
+## Use As An Agent Skill
+
+The GitHub project is named `coretree-writing`; the installable skill is named `coretree`.
+
+The skill file is platform-neutral Markdown. Its `compatibility` field is kept as OpenCode metadata, but other agents can read the same instructions directly.
+
+Install from the skill directory with the `skills` CLI. Use one or both commands depending on your agent:
+
+```bash
+# OpenCode
+npx skills add https://github.com/netics01/coretree-writing/tree/main/skills/coretree -g -a opencode
+
+# Claude Code
+npx skills add https://github.com/netics01/coretree-writing/tree/main/skills/coretree -g -a claude-code
+```
+
+Manual paths:
+
+- OpenCode: `~/.config/opencode/skills/coretree/SKILL.md`
+- Claude Code: `~/.claude/skills/coretree/SKILL.md`
+- Generic agents: copy [skills/coretree/SKILL.md](skills/coretree/SKILL.md) into the agent's skill directory, or provide it as Markdown instructions.
 
 ## Language
 

@@ -62,7 +62,29 @@ After:
 
 - 더 많은 적용 예시를 보고 싶다면 [EXAMPLES.ko.md](EXAMPLES.ko.md)를 읽으세요.
 - 정확한 규격을 알고 싶다면 [SPEC.md](SPEC.md)를 읽으세요.
-- 에이전트 스킬로 사용하려면 [skills/coretree/SKILL.md](skills/coretree/SKILL.md)를 보세요. 레포 이름은 `coretree-writing`, 설치되는 스킬 이름은 `coretree`입니다.
+- 에이전트 스킬로 사용하려면 [에이전트 스킬로 사용](#에이전트-스킬로-사용)을 보세요.
+
+## 에이전트 스킬로 사용
+
+GitHub 프로젝트 이름은 `coretree-writing`, 설치되는 스킬 이름은 `coretree`입니다.
+
+스킬 파일은 플랫폼 중립 Markdown입니다. `compatibility` 필드는 OpenCode 메타데이터로 유지하지만, 다른 에이전트도 같은 지침을 직접 읽어 사용할 수 있습니다.
+
+`skills` CLI로 스킬 디렉터리에서 설치할 수 있습니다. 사용하는 에이전트에 맞는 명령을 하나 또는 둘 다 실행하세요.
+
+```bash
+# OpenCode
+npx skills add https://github.com/netics01/coretree-writing/tree/main/skills/coretree -g -a opencode
+
+# Claude Code
+npx skills add https://github.com/netics01/coretree-writing/tree/main/skills/coretree -g -a claude-code
+```
+
+수동 설치 경로:
+
+- OpenCode: `~/.config/opencode/skills/coretree/SKILL.md`
+- Claude Code: `~/.claude/skills/coretree/SKILL.md`
+- 기타 에이전트: [skills/coretree/SKILL.md](skills/coretree/SKILL.md)를 에이전트의 스킬 디렉터리에 복사하거나 Markdown 지침으로 제공합니다.
 
 ## 언어
 
