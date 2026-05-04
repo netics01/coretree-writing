@@ -106,7 +106,7 @@ To make Coretree the default style for a project, add an instruction to that pro
 When writing notes, summaries, decisions, findings, or documentation, use Coretree style unless the user asks for another format.
 ```
 
-The exact trigger wording depends on the agent, but phrases such as `Coretree style`, `Coretree writing`, or `코어트리 스타일` are intended to load or apply the skill.
+The exact trigger wording depends on the agent, but phrases such as `Coretree style` or `Coretree writing` are intended to load or apply the skill.
 
 ## Language
 
