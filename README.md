@@ -27,11 +27,11 @@ Use Coretree when a reader needs to scan information quickly.
 
 ## Quick Example
 
-Before:
+Before: prose paragraph
 
-```text
-The team tested app dictation first. At first, it looked like dictation into other apps was not working, but the real cause was an execution permission issue. The team also tested another transcription tool, but rejected it because transcription accuracy was too low for long Korean sentences.
-```
+> The team tested app dictation first. At first, it looked like dictation into other apps was not working, but the real cause was an execution permission issue.
+>
+> The team also tested another transcription tool, but rejected it because transcription accuracy was too low for long Korean sentences.
 
 After:
 
