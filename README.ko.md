@@ -62,7 +62,7 @@ After:
 
 - 더 많은 적용 예시를 보고 싶다면 [EXAMPLES.ko.md](EXAMPLES.ko.md)를 읽으세요.
 - 정확한 규격을 알고 싶다면 [SPEC.md](SPEC.md)를 읽으세요.
-- 에이전트 스킬로 사용하려면 레포 이름은 `coretree-writing`, 설치되는 스킬 이름은 `coretree`입니다.
+- 에이전트 스킬로 사용하려면 [skills/coretree/SKILL.md](skills/coretree/SKILL.md)를 보세요. 레포 이름은 `coretree-writing`, 설치되는 스킬 이름은 `coretree`입니다.
 
 ## 언어
 

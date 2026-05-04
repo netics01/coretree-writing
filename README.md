@@ -60,7 +60,7 @@ After:
 
 - Want more examples? Read [EXAMPLES.md](EXAMPLES.md).
 - Want the exact rules? Read [SPEC.md](SPEC.md).
-- Want to use it as an agent skill? The repository is named `coretree-writing`; the installable skill is named `coretree`.
+- Want to use it as an agent skill? See [skills/coretree/SKILL.md](skills/coretree/SKILL.md). The repository is named `coretree-writing`; the installable skill is named `coretree`.
 
 ## Language
 
