@@ -1,7 +1,5 @@
 # Coretree Writing Specification
 
-Language: English | [한국어](SPEC.ko.md)
-
 This document is the primary specification for Coretree writing.
 
 This specification is written in English and defines the Coretree writing style.
