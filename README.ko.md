@@ -58,14 +58,11 @@ After:
     - 먼저 권한 문제를 해결
 ```
 
-## 파일
+## 다음에 볼 문서
 
-- `SPEC.md`: 영어 기본 명세입니다.
-- `SPEC.ko.md`: 한국어 companion 명세입니다.
-- `EXAMPLES.md`: 영어 기본 예시입니다.
-- `EXAMPLES.ko.md`: 한국어 companion 예시입니다.
-- `AGENTS.md`: AI 에이전트를 위한 짧은 지시문입니다.
-- `skills/coretree/SKILL.md`: 독립 실행 가능한 `coretree` 스킬 파일입니다. 레포 이름은 `coretree-writing`이고, 설치되는 스킬 이름은 `coretree`입니다.
+- 더 많은 적용 예시를 보고 싶다면 [EXAMPLES.ko.md](EXAMPLES.ko.md)를 읽으세요.
+- 정확한 규격을 알고 싶다면 [SPEC.md](SPEC.md)를 읽으세요.
+- 에이전트 스킬로 사용하려면 레포 이름은 `coretree-writing`, 설치되는 스킬 이름은 `coretree`입니다.
 
 ## 언어
 
