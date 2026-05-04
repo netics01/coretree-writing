@@ -4,7 +4,9 @@ Language: English | [한국어](README.ko.md)
 
 Coretree is a compact multi-level bullet writing style for quick scanning.
 
-It helps turn notes, decisions, findings, and raw information into readable bullet trees. It is not a template, a knowledge base system, or a universal writing method. It is a small writing convention for organizing information so readers can see the structure quickly.
+It helps turn scattered notes, decisions, findings, and raw information into structured bullet trees that are easier to scan, compare, and revisit. By using shallow hierarchy, concise labels, and one-line relationships, Coretree makes decisions, causes, risks, and next actions easier to find without rereading long paragraphs.
+
+It is intentionally small: not a template, not a knowledge base system, and not a universal writing method.
 
 ## What It Is
 
@@ -83,6 +85,28 @@ Manual paths:
 - OpenCode: `~/.config/opencode/skills/coretree/SKILL.md`
 - Claude Code: `~/.claude/skills/coretree/SKILL.md`
 - Generic agents: copy [skills/coretree/SKILL.md](skills/coretree/SKILL.md) into the agent's skill directory, or provide it as Markdown instructions.
+
+### How To Ask An Agent To Use It
+
+After installing the skill, ask your agent directly:
+
+```text
+Write this document in Coretree style.
+```
+
+or:
+
+```text
+Summarize this in Coretree writing.
+```
+
+To make Coretree the default style for a project, add an instruction to that project's agent guidance file, such as `AGENTS.md`:
+
+```text
+When writing notes, summaries, decisions, findings, or documentation, use Coretree style unless the user asks for another format.
+```
+
+The exact trigger wording depends on the agent, but phrases such as `Coretree style`, `Coretree writing`, or `코어트리 스타일` are intended to load or apply the skill.
 
 ## Language
 
