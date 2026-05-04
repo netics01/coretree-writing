@@ -8,8 +8,7 @@ This document contains examples for Coretree writing. `SPEC.md` is the primary s
 
 Before: prose notes
 
-> We discussed the onboarding flow. The current welcome screen is too long, and users often skip the setup step.
->
+> We discussed the onboarding flow. The current welcome screen is too long, and users often skip the setup step.<br>
 > We decided to shorten the welcome copy and move setup guidance into the first task screen.
 
 After:
@@ -27,8 +26,7 @@ Rule shown: labels are optional; clear hierarchy can carry most of the structure
 
 Before: prose notes
 
-> The team chose the smaller release scope because the larger version would require more review and delay the launch.
->
+> The team chose the smaller release scope because the larger version would require more review and delay the launch.<br>
 > The excluded reporting feature should be reconsidered after the first release.
 
 After:
@@ -45,8 +43,7 @@ Rule shown: important decisions are promoted upward.
 
 Before: prose notes
 
-> Three transcription tools were tested. Tool A was fast but inaccurate for long Korean sentences.
->
+> Three transcription tools were tested. Tool A was fast but inaccurate for long Korean sentences.<br>
 > Tool B handled long sentences better but produced inconsistent punctuation. Tool C was accurate enough but too slow for live note-taking.
 
 After:
@@ -70,8 +67,7 @@ Rule shown: same-depth bullets should contain the same type of information.
 
 Before: prose notes
 
-> Users cannot save settings after changing notification preferences. The save request returns 403.
->
+> Users cannot save settings after changing notification preferences. The save request returns 403.<br>
 > The likely cause is that the settings endpoint checks the wrong permission name. The issue blocks preference changes but does not affect login or reading existing settings.
 
 After:
@@ -91,8 +87,7 @@ Rule shown: causes, symptoms, and impact should be separated.
 
 Before: prose notes
 
-> I reviewed the configuration and found that validation already runs before release.
->
+> I reviewed the configuration and found that validation already runs before release.<br>
 > I also found that formatting checks run in a separate step, so combining them with release would make failures harder to understand.
 
 After:

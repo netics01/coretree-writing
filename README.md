@@ -31,8 +31,7 @@ Use Coretree when a reader needs to scan information quickly.
 
 Before: prose notes
 
-> We tested app dictation first. At first, it looked like dictation into other apps was not supported, so we considered replacing it with a separate transcription tool. Later, we found that the problem was not a feature limitation but an execution permission issue.
->
+> We tested app dictation first. At first, it looked like dictation into other apps was not supported, so we considered replacing it with a separate transcription tool. Later, we found that the problem was not a feature limitation but an execution permission issue.<br>
 > We also tested two transcription tools. Tool A was fast, but its accuracy dropped too much on long Korean sentences. Tool B handled long sentences better, but punctuation was inconsistent and would increase review work. For now, the team decided to keep app dictation after fixing permissions, reject Tool A, and leave Tool B as a possible fallback for offline notes.
 
 After:
