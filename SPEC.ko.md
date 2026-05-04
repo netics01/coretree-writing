@@ -1,5 +1,7 @@
 # Coretree Writing Specification
 
+언어: [English](SPEC.md) | 한국어
+
 이 문서는 `SPEC.md`의 한국어 companion 문서입니다. 영어 `SPEC.md`를 우선합니다.
 
 이 문서는 Coretree 작성 스타일을 한국어로 함께 설명합니다.
