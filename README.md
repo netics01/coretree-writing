@@ -6,11 +6,13 @@ Coretree is a compact multi-level bullet writing style for quick scanning.
 
 It helps turn scattered notes, decisions, findings, and raw information into structured bullet trees that are easier to scan, compare, and revisit. By using shallow hierarchy, concise labels, and one-line relationships, Coretree makes decisions, causes, risks, and next actions easier to find without rereading long paragraphs.
 
+Generic bullet instructions often change only the shape of the output. Coretree also defines what bullet depth, order, labels, and promotion mean, so important decisions, causes, and next actions do not stay buried.
+
 It is intentionally small: not a template, not a knowledge base system, and not a universal writing method.
 
 ## What It Is
 
-Coretree organizes information with multi-level bullets.
+Coretree is not just bullet formatting. It organizes information with multi-level bullets whose structure carries meaning.
 
 - Main bullets cover core topics, decisions, or outcomes.
 - Sub-bullets provide details, causes, conditions, evidence, examples, or follow-up information.
@@ -27,6 +29,7 @@ Use Coretree when a reader needs to scan information quickly.
 - Decision records show the decision, reason, and next action clearly.
 - Research summaries separate findings from evidence.
 - Bug reports show symptoms, causes, impact, and status without long paragraphs.
+- Generic bullet prompts become more reliable because hierarchy and promotion rules are explicit.
 - AI agent output becomes more consistent and easier to review.
 
 ## Quick Example
