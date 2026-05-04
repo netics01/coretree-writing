@@ -31,31 +31,31 @@ Use Coretree when a reader needs to scan information quickly.
 
 ## Quick Example
 
-Before: prose notes
+Before: project decision notes
 
-> We tested app dictation first. At first, it looked like dictation into other apps was not supported, so we considered replacing it with a separate transcription tool. Later, we found that the problem was not a feature limitation but an execution permission issue.<br>
-> We also tested two transcription tools. Tool A was fast, but its accuracy dropped too much on long Korean sentences. Tool B handled long sentences better, but punctuation was inconsistent and would increase review work. For now, the team decided to keep app dictation after fixing permissions, reject Tool A, and leave Tool B as a possible fallback for offline notes.
+> The team needs to decide whether to keep the current Markdown-based documentation flow or move project notes into a database-backed knowledge base. The database option would make filtering and dashboards easier, but it would add setup work and make quick edits slower.<br>
+> The current Markdown flow is simple, works well with code review, and is easy for agents to edit. For now, the team decided to keep Markdown as the default and only revisit the knowledge base option if search and cross-project reporting become recurring problems.
 
 After:
 
 ```text
-- App dictation test
-    - Initial assumption: dictation into other apps was not supported
-    - Actual cause: execution permission issue
+- Decision: keep Markdown as the default documentation flow
+    - Simple to edit and review
+    - Works well with code review
+    - Easy for agents to modify
 
-- Current decision: keep app dictation after fixing permissions
+- Alternative: database-backed knowledge base
+    - Benefit: easier filtering and dashboards
+    - Cost: more setup work
+    - Cost: slower quick edits
 
-- Tool A decision: rejected
-    - Fast enough for live notes
-    - Accuracy drops too much on long Korean sentences
+- Revisit condition
+    - Search problems become recurring
+    - Cross-project reporting becomes necessary
 
-- Tool B status: fallback candidate
-    - Handles long sentences better than Tool A
-    - Inconsistent punctuation => higher review work
-
-- Core outcome
-    - No replacement tool needed yet
-    - Fix permissions first
+- Next action
+    - Keep project notes in Markdown
+    - Track search and reporting pain points
 ```
 
 ## Where To Go Next
