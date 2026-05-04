@@ -1,5 +1,7 @@
 # Coretree Examples
 
+Language: English | [한국어](EXAMPLES.ko.md)
+
 This document contains examples for Coretree writing. `SPEC.md` is the primary specification.
 
 ## Notes
