@@ -4,13 +4,13 @@ description: Apply the Coretree multi-level bullet writing style
 license: MIT
 compatibility: opencode
 metadata:
-  style_version: 1.0.0
+  style_version: 1.0.1
   spec: SPEC.md
 ---
 
 # Coretree Style Skill
 
-- Version: 1.0.0
+- Version: 1.0.1
 - Primary reference: `SPEC.md`
 - This skill is platform-neutral Markdown.
 - OpenCode can install it as a skill.
@@ -34,10 +34,11 @@ Use this skill when the user asks for any of the following:
 4. Group related details under each topic.
 5. Promote important conclusions, decisions, causes, and results when they would otherwise be buried.
 6. Compress repeated or low-value wording.
-7. Keep hierarchy readable by preferring 1-3 levels.
-8. Use 4 levels only when it improves clarity.
-9. Avoid 5-level nesting.
-10. Output the final document in Coretree style.
+7. Indent each nested Markdown bullet level with 4 spaces, not tabs or 2 spaces.
+8. Keep hierarchy readable by preferring 1-3 levels.
+9. Use 4 levels only when it improves clarity.
+10. Avoid 5-level nesting.
+11. Output the final document in Coretree style.
 
 ## Failure Procedure
 
@@ -75,6 +76,8 @@ Coretree is a writing style that organizes information as readable multi-level b
 - Depth 3: necessary detail
 - Depth 4: rare, only when it improves clarity
 - Depth 5: avoid
+
+Indent each nested Markdown bullet level with 4 spaces. Do not use tabs or 2-space indentation. Keep indentation consistent so hierarchy remains visually clear.
 
 If a tree becomes too deep, reorganize it.
 

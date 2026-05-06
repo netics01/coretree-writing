@@ -35,6 +35,8 @@ Use depth deliberately.
 - Depth 4: rare, only when it improves clarity
 - Depth 5: avoid
 
+Indent each nested Markdown bullet level with 4 spaces. Do not use tabs or 2-space indentation. Keep indentation consistent so hierarchy remains visually clear.
+
 Do not preserve deep nesting just because the input material is deeply structured. If a tree becomes too deep, reorganize it.
 
 - Split the information into separate topics.
@@ -160,6 +162,7 @@ Do not force Coretree where prose is better.
 - Is the conclusion or decision visible near the top?
 - Does each bullet contain one idea?
 - Does depth show dependency rather than importance?
+- Are nested Markdown bullets indented with 4 spaces per level?
 - Are labels short and useful?
 - Are 4-level bullets rare?
 - Are 5-level bullets avoided?
